@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Rubik+Maps&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.click-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hover-scale {
+    transition: transform 0.05s ease-in-out;
+}
+.hover-scale:hover {
+    transform: scale(1.0);
+}
+.hover-scale:active {
+    transform: scale(0.9);
+}
